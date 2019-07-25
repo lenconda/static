@@ -14,24 +14,24 @@
     font-family: $rt-font-family;
     cursor: pointer;
     direction: ltr;
+    color: $rt-text-color-default;
     &--rtl {
         direction: rtl;
     }
     &--default {
-        background: $rt-color-default;
-        color: $rt-text-color-default;
+        border-left: 3px solid $rt-color-default;
     }
     &--info {
-        background: $rt-color-info;
+        border-left: 3px solid $rt-color-info;
     }
     &--success {
-        background: $rt-color-success;
+        border-left: 3px solid $rt-color-success;
     }
     &--warning {
-        background: $rt-color-warning;
+        border-left: 3px solid $rt-color-warning;
     }
     &--error {
-        background: $rt-color-error;
+        border-left: 3px solid $rt-color-error;
     }
     &-body {
         margin: auto 0;
